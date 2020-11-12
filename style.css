@@ -1,0 +1,343 @@
+
+	.index-body{
+		margin:0px;
+		padding:0px;
+		background: url('images/background.jpg');
+		background-repeat:no-repeat;
+		background-size:1550px;
+
+    }
+    .header{
+    	display:flex;
+    	justify-content:space-between;
+    }
+    .left{
+    	display:flex;
+
+    }
+    .left img{
+    	margin:10px;
+    	filter:invert(100%);
+    	height:75px;
+    	width:80px;
+    }
+    .left h3{
+    	margin-top:26px;
+    	margin-left:7px;
+    	font-size:27px;
+    	font-family:Blippo,fantasy;
+    	color:white;
+    }
+    .navbar{
+    	display:flex;
+    	margin-right:75px;
+    	margin-top:25px;
+  
+    
+    }
+    .navbar li{
+  
+    
+    }
+    .navbar li a{
+    	margin:20px;
+    	text-decoration:none;
+    	color:white;
+    	padding:12px;
+    	font-size:22px;
+    	font-family:Blippo,fantasy;
+    }
+    .navbar li a:hover, .navbar li a.active{
+         color:red;
+    }
+
+	.container{
+		color:white;
+		margin-top:170px;
+		margin-left:970px;
+		width:30%;
+		height:275px;
+		border-radius:12px;
+	}
+
+	.container h1{
+		text-align:left;
+		font-family:Blippo,fantasy;
+
+	}
+	.container h3{
+		text-align:left;
+		font-family:Stencil Std,fantasy;
+		color:red;
+	}
+	.btn-index{
+		display:block;
+		width:20%;
+		height:20%;
+		padding:8px;
+		background-color:red;
+		border:2px solid red;
+		color:white;
+	}
+	.btn-index:hover{
+		background-color:green;
+		border:2px solid green;
+
+	}
+
+
+
+
+
+    .aboutus-body{
+        margin:0px;
+        padding:0px;
+        background: url('images/aboutus.jpg');
+        background-repeat:no-repeat;
+        background-size:1550px 600px;
+        height:1800px;
+
+}
+    .header{
+        display:flex;
+        justify-content:space-between;
+    }
+    .left{
+        display:flex;
+
+    }
+    .left img{
+        margin:10px;
+        filter:invert(100%);
+        height:75px;
+        width:80px;
+    }
+    .left h3{
+        margin-top:26px;
+        margin-left:7px;
+        font-size:27px;
+        font-family:Blippo,fantasy;
+        color:white;
+    }
+    .navbar{
+        display:flex;
+        margin-right:75px;
+        margin-top:25px;
+  
+    
+    }
+
+    .navbar li a{
+        margin:20px;
+        text-decoration:none;
+        color:white;
+        padding:12px;
+        font-size:22px;
+        font-family:Blippo,fantasy;
+    }
+    .navbar li a:hover, .navbar li a.active{
+         color:red;
+    }
+    .container1{
+        opacity:0.85;
+        margin-left:400px;
+        margin-top:150px;
+        color:white;
+        font-family:Blippo,fantasy;
+    }
+    .container3{
+        margin-top:316px;
+        display:flex;
+        align-items:center;
+        height:90px;
+        background-color:#A9A9A9;
+        color:black;
+        justify-content:space-around;
+    }
+    .container2{
+        color:brown;
+    }
+    .description{
+        display:flex;
+        margin-top:20px
+    }
+    .description1{
+        margin:10px 40px;
+        padding:18px;
+    }
+    .description1 h2{
+        font-family:Blippo,fantasy;
+    }
+    .team{
+        margin-top:40px;
+
+    }
+    .team img{
+        width:100%;
+        height:650px;
+    }
+    .team h1{
+        font-family:Blippo,fantasy;
+    }
+    .team{
+        position:relative;
+    }
+    .culture{
+        position:absolute;
+        top:20%;
+        left:50%;
+        color:white;
+        font-family:Blippo,fantasy;
+        text-decoration:underline;
+    }
+    .culture-description{
+        opacity:0.85;
+        position:absolute;
+        top:28%;
+        left:50%;
+        color:white;
+        width:40%;
+    }
+
+
+
+
+
+
+
+
+
+    .contact-body{
+        margin:0px;
+        padding:0px;
+        background: url('images/contact.jpg');
+        background-repeat:no-repeat;
+        background-size:1650px 650px;
+        height:250px;
+
+    }
+    .header{
+        display:flex;
+        justify-content:space-between;
+    }
+    .left{
+        display:flex;
+
+    }
+    .left img{
+        margin:10px;
+        filter:invert(100%);
+        height:75px;
+        width:80px;
+    }
+    .left h3{
+        margin-top:26px;
+        margin-left:7px;
+        font-size:27px;
+        font-family:Blippo,fantasy;
+        color:white;
+    }
+    .navbar{
+        display:flex;
+        margin-right:75px;
+        margin-top:25px;
+  
+    
+    }
+
+    .navbar li a{
+        opacity:0.85;
+        margin:20px;
+        text-decoration:none;
+        color:white;
+        padding:12px;
+        font-size:22px;
+        font-family:Blippo,fantasy;
+    }
+    .navbar li a:hover, .navbar li a.active{
+         color:red;
+    }
+    .container-contact{
+        color:white;
+        border:6px solid red;
+        margin:75px 200px;
+        width:30%;
+        height:275px;
+        border-radius:12px;
+
+    }
+    .btn{
+        display:block;
+        width:25%;
+        margin:8px auto;
+        background-color:red;
+        color:white;
+        border:2px solid red;
+        border-radius:6px;
+        padding:3px;
+    }
+    .btn:hover{
+        background-color:green;
+        border:2px solid green;
+    }
+    .form-group input{
+        text-align:center;
+        display:block;
+        width:228px;
+        padding:4px;
+        margin: 12px auto;
+        border:2px solid red;
+        border-radius:6px;
+        outline:none;
+        background:none;
+        color:white;
+
+    }
+    .container-contact h2{
+        text-align:center;
+
+    }
+    .social{
+        display:flex;
+        text-align:center;
+        margin-top:143px;
+        background-color:grey;
+        height:150px;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align:center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:  #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: pink;
+  color: white;
+}
+    }

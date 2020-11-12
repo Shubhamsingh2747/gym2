@@ -7,151 +7,15 @@
 	<title>FITNESS</title>
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<style>
-	body{
-		margin:0px;
-		padding:0px;
-		background: url('contact.jpg');
-		background-repeat:no-repeat;
-		background-size:1600px 600px;
-		height:300px;
-
-    }
-    .header{
-    	display:flex;
-    	justify-content:space-between;
-    }
-    .left{
-    	display:flex;
-
-    }
-    .left img{
-    	margin:10px;
-    	filter:invert(100%);
-    	height:75px;
-    	width:80px;
-    }
-    .left h3{
-    	margin-top:26px;
-    	margin-left:7px;
-    	font-size:27px;
-    	font-family:Blippo,fantasy;
-    	color:white;
-    }
-    .navbar{
-    	display:flex;
-    	margin-right:75px;
-    	margin-top:25px;
-  
-    
-    }
-
-    .navbar li a{
-    	opacity:0.85;
-    	margin:20px;
-    	text-decoration:none;
-    	color:white;
-    	padding:12px;
-    	font-size:22px;
-    	font-family:Blippo,fantasy;
-    }
-    .navbar li a:hover, .navbar li a.active{
-         color:red;
-    }
-    .container{
-		color:white;
-		border:6px solid red;
-		margin:75px 200px;
-		width:30%;
-		height:275px;
-		border-radius:12px;
-
-	}
-	.btn{
-		display:block;
-		width:25%;
-		margin:8px auto;
-		background-color:red;
-		color:white;
-		border:2px solid red;
-		border-radius:6px;
-		padding:3px;
-	}
-	.btn:hover{
-		background-color:green;
-		border:2px solid green;
-	}
-	.form-group input{
-		text-align:center;
-		display:block;
-		width:228px;
-		padding:4px;
-		margin: 12px auto;
-		border:2px solid red;
-		border-radius:6px;
-		outline:none;
-		background:none;
-		color:white;
-
-	}
-	.container h2{
-		text-align:center;
-
-	}
-	.social{
-		display:flex;
-		text-align:center;
-		margin-top:143px;
-		background-color:grey;
-		height:150px;
-		justify-content:space-around;
-		align-items:center;
-	}
-	.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 50px;
-  text-align:center;
-  text-decoration: none;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background:  #3B5998;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fa-instagram {
-  background: pink;
-  color: white;
-}
+<link rel="stylesheet" href="style.css">
 
 
-</style>
 
-
-<body>
+<body class="contact-body">
 	<!--NAVBAR-->
 	<header class="header">
 		<div class="left">
-			<img src="icon.png" alt="">
+			<img src="images/icon.png" alt="">
 			<h3>FITNESS<h3>
 		</div>
 
@@ -167,7 +31,7 @@
 
 
     <!--CONTACT-CONTAINER-->
-    <div class="container">
+    <div class="container-contact">
     	<h2>Join the best gym now!</h2>
 		<form action="noaction.php">
 			<div class="form-group">
