@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-compatible" content="ie=edge">
 	<title>FITNESS</title>
 </head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 
 
@@ -23,7 +23,7 @@
 			<ul class="navbar">
 				<li><a href="index.html" >HOME</a></li>
 				<li><a href="about.html">ABOUT US</a></li>
-				<li><a href="contact.html" class="active">CONTACT </a></li>
+				<li><a href="contact.html" class="active">JOIN US </a></li>
 				<li><a href="services.html">SERVICES</a></li>
 			</ul>
 		</div>
@@ -31,14 +31,53 @@
 
 
     <!--CONTACT-CONTAINER-->
-    <div class="container-contact">
-    	<h2>Join the best gym now!</h2>
+    <div class="contact-container">
+
+
+
+       <!-- address and other details on left side-->
+    	<div class="left-side">
+     
+    		<div class="left-1">
+    			<div class="icon">
+    				<i class="fa fa-map-marker" aria-hidden="true"></i>
+    			</div>
+    			<div class="text">
+    			    <h3>Address</h3>
+    			    <p> 1/1155-I , vishal khand
+    				    <br> Gomti Nagar, Lucknow</p>
+    			</div>
+    		</div>
+
+    		<div class="left-1">
+    			<div class="icon">
+    				<i class="fa fa-envelope-o" aria-hidden="true"></i>
+    			</div>
+    			<div class="text">
+    			    <h3>Email</h3>
+    			    <p> xyz@gmail.com</p>
+    			</div>
+    		</div>
+
+    		<div class="left-1">
+    			<div class="icon">
+    				<i class="fa fa-phone-square" aria-hidden="true"></i>
+    			</div>
+    			<div class="text">
+    			    <h3>Phone</h3>
+    			    <p> 8887802345</p>
+    			</div>
+    		</div>
+    	</div>
+
+         
+
+         <!--joining form on right side-->
+    	<div class = "right-side">
+		<h2>Join us now!</h2>
 		<form action="noaction.php">
 			<div class="form-group">
 				<input type="text" name="" placeholder="Enter your name">
-			</div>
-			<div class="form-group">
-				<input type="tel" name="" placeholder="Enter your phone number">
 			</div>
 			<div class="form-group">
 				<input type="email" name="" placeholder="Enter your email">
@@ -46,29 +85,23 @@
 			<div class="form-group">
 				<input type="number" name="" placeholder="Enter your age ">
 			</div>
+			<div>
+				<input type="radio" name="plan" value="1 Month">
+				<label for="1 month">1 Month</label>
+				<input type="radio" name="plan" value="6 Months">
+				<label for="6 Months">6 Months</label>
+				<input type="radio" name="plan" value="1 year">
+				<label for="1 year">1 year</label>
+			</div>
+			<div class="form-group">
+			    <label for="country">Gender:</label>
+                <select id="Gender" name="Gender">
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
 			<button class="btn">Submit</button>
-     </div>
-
-
-     <!--SOCIAL MEDIA CONTACTS-->
-    <div class="social">
-     	<p><h3>FOLLOW US ON:</h3></p>
-        <div>
-    	    <a href="#" class="fa fa-facebook"></a>
-        </div>
-        <div>
-        	<a href="#" class="fa fa-twitter"></a>
-        </div>
-        <div>
-        	<a href="#" class="fa fa-youtube"></a>
-        </div>
-        <div>
-        	<a href="#" class="fa fa-linkedin"></a>
-        </div>
-        <div>
-        	<a href="#" class="fa fa-instagram"></a>
-        </div>
+	</div>
     </div>
-
-</body>
-</html>
+ 
