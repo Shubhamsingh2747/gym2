@@ -35,10 +35,7 @@
   
     
     }
-    .navbar li{
-  
-    
-    }
+
     .navbar li a{
     	margin:20px;
     	text-decoration:none;
@@ -82,6 +79,7 @@
 	.btn-index:hover{
 		background-color:green;
 		border:2px solid green;
+        cursor:pointer;
 
 	}
 
@@ -260,16 +258,19 @@
 
     }
     .form-group input{
-        text-align:center;
         padding:6px;
         width:250px;
         outline:none;
         background:none;
-        border:2px solid white;
+        border:none;
+        border-bottom:2px solid white;
         color:white;
     }
     .form-group{
         padding:9px;
+    }
+    .radio{
+        margin-top:15px;
     }
     .btn{
         display:block;
@@ -282,11 +283,11 @@
         padding:3px;
     }
     .btn:hover{
-       color:red;
+       color:black;
+       background-color:white;
+       cursor:pointer;
     }
-    #country{
-        width:150px;
-    }
+  
 
 
 
