@@ -4,7 +4,7 @@
 		padding:0px;
 		background: url('images/background.jpg');
 		background-repeat:no-repeat;
-		background-size:1550px;
+		background-size: cover;
 
     }
     .header{
@@ -29,6 +29,7 @@
     	color:white;
     }
     .navbar{
+        list-style: none;
     	display:flex;
     	margin-right:75px;
     	margin-top:25px;
