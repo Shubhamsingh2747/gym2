@@ -78,17 +78,16 @@
 		color:white;
 	}
 	.btn-index:hover{
-		background-color:green;
-		border:2px solid green;
+		background-color:firebrick;
         cursor:pointer;
-
+        border:firebrick;
 	}
 
 
 
 
 
-     .aboutus-body{
+    .aboutus-body{
         margin:0px;
         padding:0px;
         background: url('images/aboutus.jpg');
@@ -119,45 +118,99 @@
     }
     .description{
         display:flex;
-        margin:40px
+        margin: 15px 40px;
     }
     .description1{
-         margin:10px 40px;
+         margin:0px 30px;
         padding:18px;
     }
     .description1 h2{
         font-family:Blippo,fantasy;
     }
-    .team{
-        margin-top:40px;
+    .WhyUs{
+        display:flex-column;
+        height:650px;
+        margin-left:40px;
+        margin-right:40px;
+        margin-bottom:20px;
+        padding:30px;
+    }
+    .head{
+        text-align: center;
+        font-family:Blippo,fantasy;
+        background-color:silver;
+        color:brown;
+    }
+    .ws-1{
+        display:flex;
+        justify-content:space-around;
 
     }
-    .team img{
-        width:100%;
-        height:650px;
+    .ws-2{
+        display:flex;
+        justify-content:space-around;
     }
-    .team h1{
-        font-family:Blippo,fantasy;
+    .WhyUs-1{
+        text-align:center;
+        height:270px;
+        width:550px;
+        margin-bottom: 30px;
+        padding:10px;
+        box-shadow:7px 9px 10px grey;
+        background-color:;
     }
-    .team{
-        position:relative;
+    .WhyUs-1 img{
+        height:60px;
+        width:70px;
+        margin-left:25px;
+        margin-top:4px;
     }
-    .culture{
-        position:absolute;
-        top:20%;
-        left:50%;
-        color:white;
-        font-family:Blippo,fantasy;
-        text-decoration:underline;
+    .WhyUs-2{
+        text-align:center;
+        height:270px;
+        width:550px;
+        margin-bottom: 30px;
+        padding:10px;
+        box-shadow:7px 9px 10px grey;
+        background-color:;
     }
-    .culture-description{
-        opacity:0.80;
-        position:absolute;
-        top:28%;
-        left:50%;
-        color:white;
-        width:40%;
+    .WhyUs-2 img{
+        height:60px;
+        width:70px;
+        margin-left:25px;
+        margin-top:4px;
     }
+    .WhyUs-3{
+        text-align:center;
+        height:270px;
+        width:550px;
+        margin-bottom: 30px;
+        padding:10px;
+        box-shadow:7px 9px 10px grey;
+        background-color:;
+    }
+    .WhyUs-3 img{
+        height:60px;
+        width:70px;
+        margin-left:25px;
+        margin-top:4px;
+    }
+    .WhyUs-4{
+        text-align:center;
+        height:270px;
+        width:550px;
+        margin-bottom: 30px;
+        padding:10px;
+        box-shadow:7px 9px 10px grey;
+        background-color:;
+    }
+    .WhyUs-4 img{
+        height:60px;
+        width:70px;
+        margin-left:25px;
+        margin-top:4px;
+    }
+
     .footer{
         display:flex;
         justify-content:space-between;
@@ -220,7 +273,7 @@
         justify-content:center;
          font-family: blippo,fantasy;
          background-color:silver;
-        color:red;
+        color:brown;
         width:100%;
         height:70px;
     }
@@ -238,25 +291,77 @@
     .contact-body{
         margin:0px;
         padding:0px;
-        background: url('images/contact.jpg');
-        background-repeat:no-repeat;
-        background-size:cover;
         height:230px;
+    }
+     .header-contact{
+        display:flex;
+        justify-content:space-between;
+        background-color:black;
+    }
+    .left{
+        display:flex;
+    }
+
+    .left img{
+        margin:10px;
+        filter:invert(100%);
+        height:75px;
+        width:80px;
+    }
+    .left h3{
+        margin-top:26px;
+        margin-left:7px;
+        font-size:27px;
+        font-family:Blippo,fantasy;
+        color:white;
+    }
+    .navbar{
+        display:flex;
+        margin-right:75px;
+        margin-top:25px;
+  
+    
+    }
+    .navbar li a{
+        margin:20px;
+        text-decoration:none;
+        color:white;
+        padding:12px;
+        font-size:22px;
+        font-family:Blippo,fantasy;
+    }
+    .navbar li a:hover, .navbar li a.active{
+         color:red;
     }
     .contact-container{
         display:flex;
-        width:55%;
+        width:100%;
         height:70vh;
-        color:white;
+        color:black;
+        margin-top:30px;
         align-items:center;
         justify-content:space-around;
+    }
+    .left-side{
+        margin-left: 50px;
     }
     .left-1{
         display:flex;
     }
     .right-side{
         text-align: center;
+        width:500px;
+        height:550px;
+        margin-right:220px;
+        box-shadow: 7px 9px 9px grey;
 
+    }
+    .right-header{
+        display:flex-column;
+        align-items:center;
+        background-color:black;
+        color:white;
+        height:100px;
     }
     .form-group input{
         padding:6px;
@@ -264,30 +369,35 @@
         outline:none;
         background:none;
         border:none;
-        border-bottom:2px solid white;
-        color:white;
+        border:1px solid grey;
+        color:black;
     }
     .form-group{
         padding:9px;
     }
+    .form-group label{
+         margin-right: 190px;
+    }
     .radio{
-        margin-top:15px;
+        margin-top:25px;
+    }
+    .main-body{
+        margin-top:50px;
     }
     .btn{
         display:block;
         width:55%;
-        margin:12px auto;
-        background-color: black;
+        margin:16px auto;
+        background-color:black;
         color:white;
-        border:2px solid white;
+        border:3px solid white;
         border-radius:6px;
         padding:3px;
     }
     .btn:hover{
-       color:black;
-       background-color:white;
-       cursor:pointer;
+       color:red;
     }
+
   
 
 
